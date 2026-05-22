@@ -1,0 +1,5 @@
+flask
+blackboxprotobuf
+pycryptodome
+requests
+gunicorn
