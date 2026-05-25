@@ -47,7 +47,7 @@ def proxy(params):
  if ss is None or time.time() > ss["expire"]:
   if ss is not None:
    with ssl: sessions.pop(session, None)
-  return Response("[AAFF00]Vui lòng đăng kí dịch vụ trên\n [u]LuanOri.Com[/u]\n để tiếp tục sử dụng!".encode("utf-8"), status=400)
+  return Response("[AAFF00]Vui lòng đăng kí dịch vụ trên\n [u]Localconfig.LuanOri.Space[/u]\n để tiếp tục sử dụng!".encode("utf-8"), status=400)
 
  data = request.get_data()
  headers = clearx(dict(request.headers))
